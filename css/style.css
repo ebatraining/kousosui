@@ -1,0 +1,308 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media screen and (min-width:600px){
+
+body{
+	-webkit-text-size-adjust: 100%;
+	width:100%;
+	height:100%;
+	margin:0 auto;
+	padding:0;
+}
+
+/* ラップ */
+#wrap{
+	overflow:hidden;
+	background:url(../images/gb.jpg);
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	background-position:center center;
+	background-size:cover;
+}
+
+#wrap img{
+	display:block;
+	margin:auto;
+}
+
+main{
+	max-width: 1100px;
+	margin-left:auto;
+	margin-right:auto;
+	background:#FFFFFF;
+	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+/* トップ */
+#top_img img{ 
+  	width: 100%; 
+	
+}
+
+/* コンテンツ */
+#content img{ 
+	width:70%;
+	margin: 2rem auto;
+	margin-bottom:150px;
+}
+
+/* コンテンツ2 */
+#content2 img{
+	width: auto; 
+	max-width: 100%; 
+	max-height: 30vh; 
+	margin: 2rem auto;
+	margin-bottom:80px;
+}
+
+/* コンテンツ3 */
+#content3 img{
+	width:70%; 
+	margin: 2rem auto;
+	margin-bottom:30px;
+}
+
+/* テキスト */
+#text{
+	width:70%; 
+	margin:0 auto 2rem;
+	font-size: 22px;
+	font-weight:600;
+	line-height:1.5;
+	margin-bottom: 130px;
+	color:#6A6553;
+}
+
+#text p{
+	margin:10px; 
+} 
+
+/* コンテンツ4 */
+#content4 img{
+	width:70%; 
+	margin: 2rem auto;
+	margin-bottom: 80px;
+}
+
+/* コンテンツ5 */
+#content5 img{
+	width:90%; 
+	margin: 2rem auto;
+	margin-bottom: 180px;
+}
+
+/* コンテンツ6 */
+#content6 img{
+	width: auto; 
+	max-width: 100%; 
+	max-height: 30vh; 
+	margin: 2rem auto;
+}
+
+/* コンテンツ7 */
+#content7 img{
+	width:100%; 
+	margin: 2rem auto;
+}
+
+/* テキスト */
+#text2{
+	width:80%; 
+	margin:0 auto 2rem;
+	font-size: 26px;
+	font-weight:600;
+	line-height:1.5;
+	margin-bottom: 130px;
+	color:#6A6553;
+}
+
+#text2 p{
+	margin:10px; 
+} 
+
+/* コンテンツ8 */
+#content8 img{
+	width: auto; 
+	max-width: 100%; 
+	max-height: 50vh; 
+	margin: 2rem auto;
+	margin-bottom: 200px;
+}
+
+/* コンテンツ9 */
+#content9 img{
+	width: auto; 
+	max-width: 100%; 
+	max-height: 30vh; 
+	margin: 2rem auto;
+}
+
+/*  コンテンツ10 */
+#content10 img{
+	width: auto; 
+	max-width: 100%; 
+	max-height: 100vh; 
+	margin: 2rem auto;
+	margin-bottom: 100px;
+}
+
+/* テキスト3 */
+#text3{
+	width:90%; 
+	margin: 2rem auto;
+	font-size: 26px;
+	font-weight:600;
+	line-height:1.5;
+	margin-bottom: 130px;
+	color:#6A6553;
+} 
+
+#text3 p{
+	margin:10px;
+} 
+
+/*  コンテンツ11 */
+#content11 img{
+	width: auto; 
+	max-width: 100%; 
+	max-height: 50vh; 
+	margin: 2rem auto;
+	margin-bottom: 200px;
+}
+
+/*  コンテンツ12 */
+#content12 img{
+	width: auto; 
+	max-width: 100%; 
+	max-height: 100vh; 
+	margin: 2rem auto;
+	margin-bottom: 100px;
+}
+
+/* メールアイコン */
+.css-mail{
+  display: inline-block;
+  position: relative;
+  width: 40px;
+  height: 32px;
+  margin: 0 20px 0 0;
+  padding: 0;
+  background: #D908C3;
+}
+.css-mail:before, .css-mail:after{
+  display: block;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+}
+.css-mail:before{
+  border: 20px solid transparent;
+  border-top-color: #fff;
+}
+.css-mail:after{
+  left: 4px;
+  border: 16px solid transparent;
+  border-top-color: #D908C3;
+}
+
+/* お客様の声 */
+#customers-voice{
+	width: 80%; 
+	margin: 2rem auto;
+	font-size: 1.5rem;
+	margin-bottom: 90px;
+	font-weight:500;
+} 
+
+#customers-voice p{
+	margin:3px;
+}
+
+/* お客様の声2 */
+#customers-voice2{
+	width: 80%; 
+	margin: 2rem auto;
+	font-size: 1.5rem;
+	margin-bottom: 90px;
+	font-weight:500;
+} 
+
+#customers-voice2 p{
+	margin:3px;
+}
+
+/* お客様の声3 */
+#customers-voice3{
+	width: 80%; 
+	margin: 2rem auto;
+	font-size: 1.5rem;
+	margin-bottom: 90px;
+	font-weight:500;
+} 
+
+#customers-voice3 p{
+	margin:3px;
+}
+
+/* お客様の声4 */
+#customers-voice4{
+	width: 80%; 
+	margin: 2rem auto;
+	font-size: 1.5rem;
+	margin-bottom: 250px;
+	font-weight:500;
+} 
+
+#customers-voice4 p{
+	margin:3px;
+}
+
+/*  コンテンツ13-1 */
+#content13-1 img{
+	width: auto; 
+	width: 80%; 
+	margin: 2rem auto 0;
+	padding-bottom: 200px;
+}
+
+/*  コンテンツ13-1スマホ用-max500px */
+#content13-1_sp img{
+	display: none;
+}
+
+/*  コンテンツ13-1スマホ用-max400px */
+#content13-1_sp-2 img{
+	display: none;
+}        
+
+/* アンカーリンク */
+#anchor_link{
+	text-align: right;
+	position: fixed;
+    bottom:1rem;
+    right:1rem;
+}
+
+#anchor_link img{
+	width:100%;
+}
+
+/* フッター */
+#footer{
+	width:100%;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	font-size:1rem;
+	font-weight:600;
+	padding:2rem 0;
+	border-top:1px solid #97927F;
+	color:#97927F;
+	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+}

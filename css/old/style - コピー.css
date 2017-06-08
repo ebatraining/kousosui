@@ -1,0 +1,308 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	-webkit-text-size-adjust: 100%;
+	width:100%;
+	height:100%;
+	margin:0 auto;
+	padding:0;
+	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro","メイリオ", "Meiryo", "Osaka-mono", "MS　Pゴシック",　"MS PGothic", sans-serif;
+}
+
+/* ラップ */
+#wrap{
+	width: auto;
+	max-width: 100%;
+	max-height: 100vh;
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+	margin:auto;
+}
+
+#wrap img{
+	display:block;
+	 margin:auto;
+}
+
+/* トップ */
+#top_img img{ 
+  	width: auto; 
+	max-width: 100%; 
+	max-height: 100vh;
+}
+
+/* コンテンツ */
+#content img{ 
+	width: auto; 
+	max-width: 100%; 
+	max-height: 70vh; 
+	margin: 2rem auto;
+	margin-bottom:200px;
+}
+
+/* コンテンツ2 */
+#content2 img{
+	width: auto; 
+	max-width: 100%; 
+	max-height: 30vh; 
+	margin: 2rem auto;
+	margin-bottom:80px;
+}
+
+/* コンテンツ3 */
+#content3 img{
+	width: auto; 
+	max-width: 100%; 
+	max-height: 35vh; 
+	margin: 2rem auto;
+	margin-bottom:100px;
+}
+
+/* テキスト */
+#text{
+	width:830px; 
+	max-width: 100%; 
+	max-height: 90vh; 
+	margin: 2rem auto;
+	font-size: 30px;
+	margin-bottom:80px;
+}
+
+#text p{
+	margin:10px; 
+} 
+
+/* コンテンツ4 */
+#content4 img{
+	width: auto; 
+	max-width: 100%; 
+	max-height: 30vh; 
+	margin: 2rem auto;
+	margin-bottom: 80px;
+}
+
+/* コンテンツ5 */
+#content5 img{
+	width: auto; 
+	max-width: 100%; 
+	max-height: 70vh; 
+	margin: 2rem auto;
+	margin-bottom: 130px;
+}
+
+/* コンテンツ6 */
+#content6 img{
+	width: auto; 
+	max-width: 100%; 
+	max-height: 30vh; 
+	margin: 2rem auto;
+}
+
+/* コンテンツ7 */
+#content7 img{
+	width: auto; 
+	max-width: 100%; 
+	max-height: 50vh; 
+	margin: 2rem auto;
+	margin-bottom: 60px;
+}
+
+/* テキスト */
+#text2{
+	width:890px; 
+	max-width: 100%; 
+	max-height: 90vh; 
+	margin: 2rem auto;
+	font-size: 30px;
+	margin-bottom: 130px;
+}
+
+#text2 p{
+	margin:10px; 
+} 
+
+/* コンテンツ8 */
+#content8 img{
+	width: auto; 
+	max-width: 100%; 
+	max-height: 50vh; 
+	margin: 2rem auto;
+	margin-bottom: 250px;
+}
+
+/* コンテンツ9 */
+#content9 img{
+	width: auto; 
+	max-width: 100%; 
+	max-height: 30vh; 
+	margin: 2rem auto;
+}
+
+/*  コンテンツ10 */
+#content10 img{
+	width: auto; 
+	max-width: 100%; 
+	max-height: 100vh; 
+	margin: 2rem auto;
+	margin-bottom: 100px;
+}
+
+/* テキスト3 */
+#text3{
+	width:1100px; 
+	max-width: 100%; 
+	max-height: 90vh; 
+	margin: 2rem auto;
+	font-size: 30px;
+	margin-bottom: 130px;
+} 
+
+#text3 p{
+	margin:10px; 
+	 text-align: center;
+} 
+
+/*  コンテンツ11 */
+#content11 img{
+	width: auto; 
+	max-width: 100%; 
+	max-height: 50vh; 
+	margin: 2rem auto;
+	margin-bottom: 350px;
+}
+
+/*  コンテンツ12 */
+#content12 img{
+	width: auto; 
+	max-width: 100%; 
+	max-height: 100vh; 
+	margin: 2rem auto;
+	margin-bottom: 100px;
+}
+
+/* メールアイコン */
+.css-mail{
+  display: inline-block;
+  position: relative;
+  width: 40px;
+  height: 32px;
+  margin: 0 20px 0 0;
+  padding: 0;
+  background: #D908C3;
+}
+.css-mail:before, .css-mail:after{
+  display: block;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+}
+.css-mail:before{
+  border: 20px solid transparent;
+  border-top-color: #fff;
+}
+.css-mail:after{
+  left: 4px;
+  border: 16px solid transparent;
+  border-top-color: #D908C3;
+}
+
+/* お客様の声 */
+#customers-voice{
+	width:1100px; 
+	max-width: 100%; 
+	max-height: 90vh; 
+	margin: 2rem auto;
+	font-size: 30px;
+	margin-bottom: 90px;
+} 
+
+#customers-voice p{
+	margin:3px;
+}
+
+/* お客様の声2 */
+#customers-voice2{
+	width:1100px; 
+	max-width: 100%; 
+	max-height: 90vh; 
+	margin: 2rem auto;
+	font-size: 30px;
+	margin-bottom: 90px;
+} 
+
+#customers-voice2 p{
+	margin:3px;
+}
+
+/* お客様の声3 */
+#customers-voice3{
+	width:1100px; 
+	max-width: 100%; 
+	max-height: 90vh; 
+	margin: 2rem auto;
+	font-size: 30px;
+	margin-bottom: 90px;
+} 
+
+#customers-voice3 p{
+	margin:3px;
+}
+
+/* お客様の声4 */
+#customers-voice4{
+	width:1100px; 
+	max-width: 100%; 
+	max-height: 90vh; 
+	margin: 2rem auto;
+	font-size: 30px;
+	margin-bottom: 250px;
+} 
+
+#customers-voice4 p{
+	margin:3px;
+}
+
+/*  コンテンツ13-1 */
+#content13-1 img{
+	width: auto; 
+	max-width: 100%; 
+	max-height: 130vh; 
+	margin: 2rem auto;
+	margin-bottom: 200px;
+}
+
+/*  コンテンツ13-1スマホ用-max500px */
+#content13-1_sp img{
+	display: none;
+}
+
+/*  コンテンツ13-1スマホ用-max400px */
+#content13-1_sp-2 img{
+	display: none;
+}        
+
+/* アンカーリンク */
+#anchor_link{
+	text-align: right;
+	position: fixed;
+    bottom: 80px;
+    right: 80px;
+}
+
+#anchor_link img{
+	width:100px;
+}
+
+/* フッター */
+#footer{
+	width:1100px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	font-size:50px;
+}
