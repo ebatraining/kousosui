@@ -10,6 +10,7 @@
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/max-599px.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<link href="css/font-awesome.css" rel="stylesheet">
 <!--スムーススクロール-->
 <script type="text/javascript">
 $(function() {
@@ -36,6 +37,7 @@ $(function() {
 </head>
 
 <body>
+<div id="fade">
 <div id="wrap">
 	<main>
         <!-- ヘッダー ここから-->
@@ -84,7 +86,25 @@ $(function() {
         </div>
         <!-- テキスト2 ここまで-->
         <!-- コンテンツ8 ここから-->
-        <div id="content8"><img src="images/contents8.png" alt="こんな方におすすめ"></div>
+<!--<div id="content8"><img src="images/contents8.png" alt="こんな方におすすめ"></div>-->
+       <div class="all_8">
+        <div class="content8_new">
+        <h1>こんな方におススメです</h1>
+         <div id="one_row">
+          <p><i class="fa fa-check-circle fa-fw" aria-hidden="true"></i>いつもドンヨリ</p>
+          <p><i class="fa fa-check-circle fa-fw" aria-hidden="true"></i>通勤通学が億劫</p>
+          <p><i class="fa fa-check-circle fa-fw" aria-hidden="true"></i>なんとなく体が重たい</p>
+          <p><i class="fa fa-check-circle fa-fw" aria-hidden="true"></i>ダイエットしたい</p>
+         </div>
+         <div id="two_row">
+          <p><i class="fa fa-check-circle fa-fw" aria-hidden="true"></i>生活リズムを良くしたい</p>
+          <p><i class="fa fa-check-circle fa-fw" aria-hidden="true"></i>最近老けてきた</p>
+          <p><i class="fa fa-check-circle fa-fw" aria-hidden="true"></i>ずっと健康でいたい</p>
+          <p><i class="fa fa-check-circle fa-fw" aria-hidden="true"></i>無理なく続けたい</p>
+         </div>
+        </div>
+         <img src="images/contents8_1.png" alt="背景">
+        </div>
         <!-- コンテンツ8 ここまで-->
         <!-- コンテンツ9 ここから-->
         <div id="content9"><img src="images/contents9.png" alt="量"></div>
@@ -190,5 +210,13 @@ $(function() {
     </div>	
 </footer>
 <!-- フッター ここまで-->
+</div>
+<script>
+$(document).ready(function ($) {
+  $('#fade').fadeIn(1000, function() {
+  });
+});
+</script>
+
 </body>
 </html>

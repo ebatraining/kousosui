@@ -51,7 +51,6 @@ main{
 #content2 img{
 	width: auto; 
 	max-width: 100%; 
-	max-height: 30vh; 
 	margin: 2rem auto;
 	margin-bottom:80px;
 }
@@ -96,7 +95,6 @@ main{
 #content6 img{
 	width: auto; 
 	max-width: 100%; 
-	max-height: 30vh; 
 	margin: 2rem auto;
 }
 
@@ -122,19 +120,77 @@ main{
 } 
 
 /* コンテンツ8 */
-#content8 img{
+/*#content8 img{
 	width: auto; 
 	max-width: 100%; 
 	max-height: 50vh; 
 	margin: 2rem auto;
 	margin-bottom: 200px;
+}*/
+
+/*コンテンツ８　NEW*/
+.all_8{
+position: relative;
+margin: 9%;
+}
+	
+
+	
+.all_8 img{
+	width: 100%
+	}
+
+.content8_new{
+overflow: hidden;
+zoom:1;
+background-color: #fff;
+width: 66%;
+position: absolute;
+top:10%;
+left: 16%;
+bottom: 10%;
+border-radius:10px;
+box-shadow: 1px 1px 1px rgba(0,0,0,0.5)inset;
 }
 
+.content8_new h1{
+color: #f47036;
+font-family:'ＭＳ Ｐ明朝', 'MS PMincho','ヒラギノ明朝 Pro W3', 'Hiragino Mincho Pro', 'serif';
+text-align: center;
+margin-top: 22px;
+}
+
+.content8_new i{
+	color:#e65977;
+}
+
+.content8_new p{
+	font-weight: bold;
+	font-size: 16pt;
+	color: #4a4a4a;
+	margin-top: -10px;
+	padding: 0;
+}
+
+
+#one_row{
+	float: left;
+	margin-left: 3%;
+	
+}
+
+#two_row{
+	float:right;
+	margin-right: 4%;
+}
 /* コンテンツ9 */
+#content9{
+	margin-top: -50px;
+}
+
 #content9 img{
 	width: auto; 
 	max-width: 100%; 
-	max-height: 30vh; 
 	margin: 2rem auto;
 }
 
@@ -304,5 +360,9 @@ main{
 	color:#97927F;
 	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
 }
+#fade{
+	display:none;
+}
+
 
 }
