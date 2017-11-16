@@ -157,7 +157,7 @@ box-shadow: 1px 1px 1px rgba(0,0,0,0.5)inset;
 color: #f47036;
 font-family:'ＭＳ Ｐ明朝', 'MS PMincho','ヒラギノ明朝 Pro W3', 'Hiragino Mincho Pro', 'serif';
 text-align: center;
-margin-top: 22px;
+margin: 3%;
 font-size: 3vw;
 }
 
@@ -169,20 +169,21 @@ font-size: 3vw;
 	font-weight: bold;
 	font-size: 1.6vw;
 	color: #4a4a4a;
-	margin-top: -2%;
+	margin-top: -2;
 	padding: 0;
+	margin: 4% 0;
 }
 
 
 #one_row{
 	float: left;
-	margin-left: 3%;
+	margin-left: 2%;
 
 }
 
 #two_row{
 	float:right;
-	margin-right: 4%;
+	margin-right: 3%;
 }
 /* コンテンツ9 */
 #content9{
