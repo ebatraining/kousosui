@@ -1,7 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 
-@media screen and (max-width: 599px){
+@media screen and (min-width:401px) and (max-width: 599px){
 
 body{
 	-webkit-text-size-adjust: 100%;
@@ -36,37 +36,37 @@ main{
 
 /* トップ */
 #top_img img{
-	width: auto; 
-	max-width: 100%;  
+	width: auto;
+	max-width: 100%;
 	margin-bottom:5px;
 }
 
 /* コンテンツ */
 #content img{
-	width: auto; 
-	max-width: 100%;  
+	width: auto;
+	max-width: 100%;
 	margin: 2rem auto;
 	margin-top:-6px;
 }
 
 /* コンテンツ2 */
 #content2 img{
-	width: auto; 
-	max-width: 100%; 
+	width: auto;
+	max-width: 100%;
 	margin-bottom:30px;
 }
 
 /* コンテンツ3 */
 #content3 img{
-	width: auto; 
-	max-width: 96%; 
+	width: auto;
+	max-width: 96%;
 	margin-top: -35px;
 	margin-left: 12px;
 }
 
 /* テキスト */
 #text{
-	width:90%; 
+	width:90%;
 	font-size: 100%;
 	font-weight:600;
 	margin:4%;
@@ -75,9 +75,9 @@ main{
 }
 
 #text p{
-	margin:10px; 
+	margin:10px;
 	text-align:justify;
-} 
+}
 
 /* コンテンツ4 */
 
@@ -85,33 +85,33 @@ main{
 	margin:0;
 }
 
-#content4 img{ 
-	width: 100%; 
+#content4 img{
+	width: 100%;
 }
 
 /* コンテンツ5 */
 #content5 img{
-	width: auto; 
-	max-width: 100%; 
+	width: auto;
+	max-width: 100%;
 	margin-bottom: 40px;
 }
 
 /* コンテンツ6 */
 #content6 img{
-	width: auto; 
-	max-width: 100%; 
+	width: auto;
+	max-width: 100%;
 }
 
 /* コンテンツ7 */
 #content7 img{
-	width: auto; 
-	max-width: 100%; 
+	width: auto;
+	max-width: 100%;
 	margin-top: -8px;
 }
 
 /* テキスト2 */
 #text2{
-	width:90%; 
+	width:90%;
 	font-size: 100%;
 	font-weight:600;
 	margin:2rem auto;
@@ -120,24 +120,24 @@ main{
 }
 
 #text2 p{
-	margin:10px; 
-} 
+	margin:10px;
+}
 
 /* コンテンツ8 */
 /*#content8 img{
-	width: auto; 
-	max-width: 100%; 
+	width: auto;
+	max-width: 100%;
 	margin-bottom: 50px;
 }*/
-	
+
 /*コンテンツ８　NEW*/
 .all_8{
 position: relative;
 margin: 4%;
 }
-	
 
-	
+
+
 .all_8 img{
 	width: 100%;
 	height: 150px;
@@ -179,7 +179,7 @@ font-size: 14px;
 #one_row{
 	float: left;
 	margin-left: 1%;
-	
+
 }
 
 #two_row{
@@ -190,43 +190,43 @@ font-size: 14px;
 
 /* コンテンツ9 */
 #content9 img{
-	width: auto; 
-	max-width: 100%; 
+	width: auto;
+	max-width: 100%;
 	margin-top: 20px;
 }
 
 /*  コンテンツ10 */
 #content10 img{
-	width: auto; 
-	max-width: 100%; 
+	width: auto;
+	max-width: 100%;
 	margin-bottom: 3px;
 }
 
 /* テキスト3 */
 #text3{
-	width:90%; 
+	width:90%;
 	font-size: 100%;
 	font-weight:600;
 	margin:2rem auto;
 	line-height:1.5;
 	color:#6A6553;
-} 
+}
 
 #text3 p{
-	margin:10px; 
-} 
+	margin:10px;
+}
 
 /*  コンテンツ11 */
 #content11 img{
-	width: auto; 
-	max-width: 100%; 
+	width: auto;
+	max-width: 100%;
 	margin-bottom: 80px;
 }
 
 /*  コンテンツ12 */
 #content12 img{
-	width: auto; 
-	max-width: 100%; 
+	width: auto;
+	max-width: 100%;
 	margin-bottom: 30px;
 }
 
@@ -262,11 +262,11 @@ font-size: 14px;
 
 /* お客様の声 */
 #customers-voice{
-	width:80%;  
+	width:80%;
 	margin: 7%;
 	margin-bottom: 50px;
-} 
-	
+}
+
 	h3{
 		font-size: 13px;
 	}
@@ -283,7 +283,7 @@ font-size: 14px;
 	margin:  7%;
 	font-size: 15px;
 	margin-bottom: 50px;
-} 
+}
 
 #customers-voice2 p{
 	margin:3px;
@@ -297,7 +297,7 @@ font-size: 14px;
 	margin: 7%;
 	font-size: 15px;
 	margin-bottom: 50px;
-} 
+}
 
 #customers-voice3 p{
 	margin:3px;
@@ -311,7 +311,7 @@ font-size: 14px;
 	margin:  7%;
 	font-size: 15px;
 	margin-bottom: 50px;
-} 
+}
 
 #customers-voice4 p{
 	margin:3px;
@@ -323,14 +323,14 @@ font-size: 14px;
 #content13-1 img{
 	display: none;
 }
-    
+
 /*  コンテンツ13-1スマホ用-max500px */
 #content13-1_sp img{
-	width: auto; 
-	max-width: 100%; 
+	width: auto;
+	max-width: 100%;
 	margin-bottom: 30px;
 }
-    
+
 /*  コンテンツ13-1スマホ用-max400px */
 #content13-1_sp-2 img{
 	display: none;

@@ -1,7 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 
-@media screen and (min-width:600px){
+@media screen and (min-width:600px) {
 
 body{
 	-webkit-text-size-adjust: 100%;
@@ -35,13 +35,13 @@ main{
 }
 
 /* トップ */
-#top_img img{ 
-  	width: 100%; 
-	
+#top_img img{
+  	width: 100%;
+
 }
 
 /* コンテンツ */
-#content img{ 
+#content img{
 	width:70%;
 	margin: 2rem auto;
 	margin-bottom:150px;
@@ -49,22 +49,22 @@ main{
 
 /* コンテンツ2 */
 #content2 img{
-	width: auto; 
-	max-width: 100%; 
+	width: auto;
+	max-width: 100%;
 	margin: 2rem auto;
 	margin-bottom:80px;
 }
 
 /* コンテンツ3 */
 #content3 img{
-	width:70%; 
+	width:70%;
 	margin: 2rem auto;
 	margin-bottom:30px;
 }
 
 /* テキスト */
 #text{
-	width:70%; 
+	width:70%;
 	margin:0 auto 2rem;
 	font-size: 22px;
 	font-weight:600;
@@ -74,39 +74,39 @@ main{
 }
 
 #text p{
-	margin:10px; 
-} 
+	margin:10px;
+}
 
 /* コンテンツ4 */
 #content4 img{
-	width:70%; 
+	width:70%;
 	margin: 2rem auto;
 	margin-bottom: 80px;
 }
 
 /* コンテンツ5 */
 #content5 img{
-	width:90%; 
+	width:90%;
 	margin: 2rem auto;
 	margin-bottom: 180px;
 }
 
 /* コンテンツ6 */
 #content6 img{
-	width: auto; 
-	max-width: 100%; 
+	width: auto;
+	max-width: 100%;
 	margin: 2rem auto;
 }
 
 /* コンテンツ7 */
 #content7 img{
-	width:100%; 
+	width:100%;
 	margin: 2rem auto;
 }
 
 /* テキスト */
 #text2{
-	width:80%; 
+	width:80%;
 	margin:0 auto 2rem;
 	font-size: 26px;
 	font-weight:600;
@@ -116,14 +116,14 @@ main{
 }
 
 #text2 p{
-	margin:10px; 
-} 
+	margin:10px;
+}
 
 /* コンテンツ8 */
 /*#content8 img{
-	width: auto; 
-	max-width: 100%; 
-	max-height: 50vh; 
+	width: auto;
+	max-width: 100%;
+	max-height: 50vh;
 	margin: 2rem auto;
 	margin-bottom: 200px;
 }*/
@@ -133,9 +133,9 @@ main{
 position: relative;
 margin: 9%;
 }
-	
 
-	
+
+
 .all_8 img{
 	width: 100%
 	}
@@ -158,6 +158,7 @@ color: #f47036;
 font-family:'ＭＳ Ｐ明朝', 'MS PMincho','ヒラギノ明朝 Pro W3', 'Hiragino Mincho Pro', 'serif';
 text-align: center;
 margin-top: 22px;
+font-size: 3vw;
 }
 
 .content8_new i{
@@ -166,9 +167,9 @@ margin-top: 22px;
 
 .content8_new p{
 	font-weight: bold;
-	font-size: 16pt;
+	font-size: 1.6vw;
 	color: #4a4a4a;
-	margin-top: -10px;
+	margin-top: -2%;
 	padding: 0;
 }
 
@@ -176,7 +177,7 @@ margin-top: 22px;
 #one_row{
 	float: left;
 	margin-left: 3%;
-	
+
 }
 
 #two_row{
@@ -189,49 +190,49 @@ margin-top: 22px;
 }
 
 #content9 img{
-	width: auto; 
-	max-width: 100%; 
+	width: auto;
+	max-width: 100%;
 	margin: 2rem auto;
 }
 
 /*  コンテンツ10 */
 #content10 img{
-	width: auto; 
-	max-width: 100%; 
-	max-height: 100vh; 
+	width: auto;
+	max-width: 100%;
+	max-height: 100vh;
 	margin: 2rem auto;
 	margin-bottom: 100px;
 }
 
 /* テキスト3 */
 #text3{
-	width:90%; 
+	width:90%;
 	margin: 2rem auto;
 	font-size: 26px;
 	font-weight:600;
 	line-height:1.5;
 	margin-bottom: 130px;
 	color:#6A6553;
-} 
+}
 
 #text3 p{
 	margin:10px;
-} 
+}
 
 /*  コンテンツ11 */
 #content11 img{
-	width: auto; 
-	max-width: 100%; 
-	max-height: 50vh; 
+	width: auto;
+	max-width: 100%;
+	max-height: 50vh;
 	margin: 2rem auto;
 	margin-bottom: 200px;
 }
 
 /*  コンテンツ12 */
 #content12 img{
-	width: auto; 
-	max-width: 100%; 
-	max-height: 100vh; 
+	width: auto;
+	max-width: 100%;
+	max-height: 100vh;
 	margin: 2rem auto;
 	margin-bottom: 100px;
 }
@@ -267,12 +268,12 @@ margin-top: 22px;
 
 /* お客様の声 */
 #customers-voice{
-	width: 80%; 
+	width: 80%;
 	margin: 2rem auto;
 	font-size: 1.5rem;
 	margin-bottom: 90px;
 	font-weight:500;
-} 
+}
 
 #customers-voice p{
 	margin:3px;
@@ -280,12 +281,12 @@ margin-top: 22px;
 
 /* お客様の声2 */
 #customers-voice2{
-	width: 80%; 
+	width: 80%;
 	margin: 2rem auto;
 	font-size: 1.5rem;
 	margin-bottom: 90px;
 	font-weight:500;
-} 
+}
 
 #customers-voice2 p{
 	margin:3px;
@@ -293,12 +294,12 @@ margin-top: 22px;
 
 /* お客様の声3 */
 #customers-voice3{
-	width: 80%; 
+	width: 80%;
 	margin: 2rem auto;
 	font-size: 1.5rem;
 	margin-bottom: 90px;
 	font-weight:500;
-} 
+}
 
 #customers-voice3 p{
 	margin:3px;
@@ -306,12 +307,12 @@ margin-top: 22px;
 
 /* お客様の声4 */
 #customers-voice4{
-	width: 80%; 
+	width: 80%;
 	margin: 2rem auto;
 	font-size: 1.5rem;
 	margin-bottom: 250px;
 	font-weight:500;
-} 
+}
 
 #customers-voice4 p{
 	margin:3px;
@@ -319,8 +320,8 @@ margin-top: 22px;
 
 /*  コンテンツ13-1 */
 #content13-1 img{
-	width: auto; 
-	width: 80%; 
+	width: auto;
+	width: 80%;
 	margin: 2rem auto 0;
 	padding-bottom: 200px;
 }
@@ -333,7 +334,7 @@ margin-top: 22px;
 /*  コンテンツ13-1スマホ用-max400px */
 #content13-1_sp-2 img{
 	display: none;
-}        
+}
 
 /* アンカーリンク */
 #anchor_link{

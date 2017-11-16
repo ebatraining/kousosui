@@ -1,7 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 
-@media screen and (max-width: 1280px){
+@media screen and (min-width:1101px) and (max-width: 1280px){
 
 body{
 	-webkit-text-size-adjust: 100%;
@@ -29,161 +29,161 @@ img{
     margin-left: auto;
     margin-right: auto; display: block;
     margin-left: auto;
-    margin-right: auto;    
+    margin-right: auto;
 }
 
 /* トップ */
-#top_img img{ 
-  	width: auto; 
-	max-width: 100%; 
+#top_img img{
+  	width: auto;
+	max-width: 100%;
 	max-height: 100vh;
 }
 
 /* コンテンツ */
-#content img{ 
-	width: auto; 
-	max-width: 100%; 
-	max-height: 70vh; 
+#content img{
+	width: auto;
+	max-width: 100%;
+	max-height: 70vh;
 	margin: 2rem auto;
 	margin-bottom:200px;
 }
 
 /* コンテンツ2 */
 #content2 img{
-	width: auto; 
-	max-width: 100%; 
-	max-height: 30vh; 
+	width: auto;
+	max-width: 100%;
+	max-height: 30vh;
 	margin: 2rem auto;
 	margin-bottom:80px;
 }
 
 /* コンテンツ3 */
 #content3 img{
-	width: auto; 
-	max-width: 100%; 
-	max-height: 35vh; 
+	width: auto;
+	max-width: 100%;
+	max-height: 35vh;
 	margin: 2rem auto;
 	margin-bottom:100px;
 }
 
 /* テキスト */
 #text{
-	width:830px; 
-	max-width: 100%; 
-	max-height: 90vh; 
+	width:830px;
+	max-width: 100%;
+	max-height: 90vh;
 	margin: 2rem auto;
 	font-size: 30px;
 	margin-bottom:80px;
 }
 
 #text p{
-	margin:10px; 
-} 
+	margin:10px;
+}
 
 /* コンテンツ4 */
 #content4 img{
-	width: auto; 
-	max-width: 100%; 
-	max-height: 30vh; 
+	width: auto;
+	max-width: 100%;
+	max-height: 30vh;
 	margin: 2rem auto;
 	margin-bottom: 80px;
 }
 
 /* コンテンツ5 */
 #content5 img{
-	width: auto; 
-	max-width: 100%; 
-	max-height: 70vh; 
+	width: auto;
+	max-width: 100%;
+	max-height: 70vh;
 	margin: 2rem auto;
 	margin-bottom: 130px;
 }
 
 /* コンテンツ6 */
 #content6 img{
-	width: auto; 
-	max-width: 100%; 
-	max-height: 30vh; 
+	width: auto;
+	max-width: 100%;
+	max-height: 30vh;
 	margin: 2rem auto;
 }
 
 /* コンテンツ7 */
 #content7 img{
-	width: auto; 
-	max-width: 100%; 
-	max-height: 50vh; 
+	width: auto;
+	max-width: 100%;
+	max-height: 50vh;
 	margin: 2rem auto;
 	margin-bottom: 60px;
 }
 
 /* テキスト */
 #text2{
-	width:890px; 
-	max-width: 100%; 
-	max-height: 90vh; 
+	width:890px;
+	max-width: 100%;
+	max-height: 90vh;
 	margin: 2rem auto;
 	font-size: 30px;
 	margin-bottom: 130px;
 }
 
 #text2 p{
-	margin:10px; 
-} 
+	margin:10px;
+}
 
 /* コンテンツ8 */
 #content8 img{
-	width: auto; 
-	max-width: 100%; 
-	max-height: 50vh; 
+	width: auto;
+	max-width: 100%;
+	max-height: 50vh;
 	margin: 2rem auto;
 	margin-bottom: 250px;
 }
 
 /* コンテンツ9 */
 #content9 img{
-	width: auto; 
-	max-width: 100%; 
-	max-height: 30vh; 
+	width: auto;
+	max-width: 100%;
+	max-height: 30vh;
 	margin: 2rem auto;
 }
 
 /*  コンテンツ10 */
 #content10 img{
-	width: auto; 
-	max-width: 100%; 
-	max-height: 100vh; 
+	width: auto;
+	max-width: 100%;
+	max-height: 100vh;
 	margin: 2rem auto;
 	margin-bottom: 100px;
 }
 
 /* テキスト3 */
 #text3{
-	width:1100px; 
-	max-width: 100%; 
-	max-height: 90vh; 
+	width:1100px;
+	max-width: 100%;
+	max-height: 90vh;
 	margin: 2rem auto;
 	font-size: 30px;
 	margin-bottom: 130px;
-} 
+}
 
 #text3 p{
-	margin:10px; 
+	margin:10px;
 	 text-align: center;
-} 
+}
 
 /*  コンテンツ11 */
 #content11 img{
-	width: auto; 
-	max-width: 100%; 
-	max-height: 50vh; 
+	width: auto;
+	max-width: 100%;
+	max-height: 50vh;
 	margin: 2rem auto;
 	margin-bottom: 350px;
 }
 
 /*  コンテンツ12 */
 #content12 img{
-	width: auto; 
-	max-width: 100%; 
-	max-height: 100vh; 
+	width: auto;
+	max-width: 100%;
+	max-height: 100vh;
 	margin: 2rem auto;
 	margin-bottom: 100px;
 }
@@ -219,13 +219,13 @@ img{
 
 /* お客様の声 */
 #customers-voice{
-	width:930px; 
-	max-width: 100%; 
-	max-height: 90vh; 
+	width:930px;
+	max-width: 100%;
+	max-height: 90vh;
 	margin: 2rem auto;
 	font-size: 25px;
 	margin-bottom: 90px;
-} 
+}
 
 #customers-voice p{
 	margin:3px;
@@ -233,13 +233,13 @@ img{
 
 /* お客様の声2 */
 #customers-voice2{
-	width:930px; 
-	max-width: 100%; 
-	max-height: 90vh; 
+	width:930px;
+	max-width: 100%;
+	max-height: 90vh;
 	margin: 2rem auto;
 	font-size: 25px;
 	margin-bottom: 90px;
-} 
+}
 
 #customers-voice2 p{
 	margin:3px;
@@ -247,13 +247,13 @@ img{
 
 /* お客様の声3 */
 #customers-voice3{
-	width:930px; 
-	max-width: 100%; 
-	max-height: 90vh; 
+	width:930px;
+	max-width: 100%;
+	max-height: 90vh;
 	margin: 2rem auto;
 	font-size: 25px;
 	margin-bottom: 90px;
-} 
+}
 
 #customers-voice3 p{
 	margin:3px;
@@ -261,13 +261,13 @@ img{
 
 /* お客様の声4 */
 #customers-voice4{
-	width:930px; 
-	max-width: 100%; 
-	max-height: 90vh; 
+	width:930px;
+	max-width: 100%;
+	max-height: 90vh;
 	margin: 2rem auto;
 	font-size: 25px;
 	margin-bottom: 250px;
-} 
+}
 
 #customers-voice4 p{
 	margin:3px;
@@ -275,9 +275,9 @@ img{
 
 /*  コンテンツ13-1 */
 #content13-1 img{
-	width: auto; 
-	max-width: 100%; 
-	max-height: 130vh; 
+	width: auto;
+	max-width: 100%;
+	max-height: 130vh;
 	margin: 2rem auto;
 	margin-bottom: 200px;
 }
@@ -290,7 +290,7 @@ img{
 /*  コンテンツ13-1スマホ用-max400px */
 #content13-1_sp-2 img{
 	display: none;
-}        
+}
 
 /* アンカーリンク */
 #anchor_link{
@@ -312,5 +312,5 @@ img{
 	text-align:center;
 	font-size:50px;
 }
-    
+
 }
