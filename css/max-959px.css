@@ -126,6 +126,62 @@ body{
 }
 
 /* コンテンツ8 */
+.all_8{
+margin: 8% 0 20%;
+}
+
+
+
+.all_8 img{
+	width: 100%
+	background:url(../images/content8_1.png)
+	padding:3em;
+	}
+
+.content8_new{
+overflow: hidden;
+zoom:1;
+background-color: #fff;
+width: 85%;
+border-radius:10px;
+box-shadow: 1px 1px 1px rgba(0,0,0,0.5)inset;
+margin: auto;
+}
+
+.content8_new h1{
+color: #f47036;
+font-family:'ＭＳ Ｐ明朝', 'MS PMincho','ヒラギノ明朝 Pro W3', 'Hiragino Mincho Pro', 'serif';
+text-align: center;
+margin: 1%;
+font-size: 2.5vw;
+}
+
+.content8_new i{
+	color:#e65977;
+}
+
+.content8_new p{
+	font-weight: bold;
+	font-size: 2.5vw;
+	color: #4a4a4a;
+	margin-top: -2;
+	padding: 0;
+	margin: 4% 0;
+}
+
+
+#one_row{
+	float: left;
+	width:40%;
+	margin-left: 8%;
+
+}
+
+#two_row{
+	float:right;
+	width: 40%;
+	margin-right: 8%;
+}
 #content8 img{
 	width: auto;
 	max-width: 100%;
