@@ -114,20 +114,20 @@ body{
 
 /* コンテンツ8 */
 .all_8{
-position: relative;
+	margin: 8% 0 20%;
+	background: url(../images/contents8_1.png);
+	padding: 3% 0;
 }
 
 .content8_new{
 overflow: hidden;
 zoom:1;
 background-color: #fff;
-width: 90%;
-position: absolute;
-top:10%;
-left: 5%;
 bottom: 10%;
 border-radius:10px;
 box-shadow: 1px 1px 1px rgba(0,0,0,0.5)inset;
+width: 90%;
+margin: auto;
 }
 
 .content8_new h1{

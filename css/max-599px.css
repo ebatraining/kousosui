@@ -132,8 +132,9 @@ main{
 
 /*コンテンツ８　NEW*/
 .all_8{
-position: relative;
-margin: 4%;
+	margin: 8% 0 20%;
+	background: url(../images/contents8_1.png);
+	padding: 5% 5%;
 }
 
 
@@ -147,10 +148,6 @@ margin: 4%;
 overflow: hidden;
 zoom:1;
 background-color: #fff;
-width: 90%;
-position: absolute;
-top:11%;
-left: 5%;
 border-radius:10px;
 box-shadow: 1px 1px 1px rgba(0,0,0,0.5)inset;
 }
@@ -168,7 +165,7 @@ font-size: 14px;
 
 .content8_new p{
 	font-weight: bold;
-	font-size:2vw;
+	font-size:3vw;
 	color: #4a4a4a;
 	margin-top: -5px;
 	padding: 0;
