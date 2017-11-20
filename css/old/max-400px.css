@@ -116,7 +116,7 @@ body{
 /* コンテンツ8 */
 .all_8{
 	margin: 8% 0 20%;
-	background: url(../images/contents8_1.png);
+	background: url(../../images/contents8_1.png);
 	padding: 3% 0;
 }
 
@@ -145,7 +145,7 @@ font-size: 3vw;
 
 .content8_new p{
 	font-weight: bold;
-	font-size: 1.6vw;
+	font-size: 1vw;
 	color: #4a4a4a;
 	margin-top: -2;
 	padding: 0;
