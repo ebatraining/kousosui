@@ -129,13 +129,13 @@ body{
 /* コンテンツ8 */
 .all_8{
 margin: 8% 0 20%;
+background: url(../images/contents8_1.png);
 }
 
 
 
 .all_8 img{
 	width: 100%
-	background:url(../images/content8_1.png)
 	padding:3em;
 	}
 
