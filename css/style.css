@@ -175,15 +175,15 @@ font-size: 2.5vw;
 
 #one_row{
 	float: left;
-	width:40%;
-	margin-left: 8%;
+	width:45%;
+	margin-left: 5%;
 
 }
 
 #two_row{
 	float:right;
-	width: 40%;
-	margin-right: 8%;
+	width: 50%;
+	
 }
 /* コンテンツ9 */
 #content9{
